@@ -30,7 +30,7 @@ function Node({ name: orgName, children }) {
         ) : (
           <>
             <div style={{ marginRight: 50 }}>
-              {isFolder && isOpen ? "V" : ">"}:{name}
+              {isFolder && ">"}:{name}
             </div>
             <div
               onClick={e => {
